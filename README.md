@@ -12,6 +12,15 @@ The project could be left out of the core and almost nothing would change.
 I would introduce a similar but bigger project with proper infrastructure, graphical interface and terminal operation, aswell as shell scripting.
 If its combined with something that feels useful, students would be more inclined to do their own things and learn it properly instead of following one of the many guides online.
 
+---
+The more complicated parts about born2beroot was setting up your own monitoring.sh script, that runs on every terminal at set times.
+With a root cronjob that was easily done!
+Writing the script and understanding it, instead of copy pasting was the real challenge.
+Even setting up the bonus, which was a wordpress website and any additional service, exclusing nginx and apache, selected by oneself was in itself pretty easy.
+The computer on campus didn't allow port forwarding standard ports, we had to remap and forward different ports, which was easily done thanks to the virtual machine.
+I used [netdata](https://github.com/netdata/) as an extra service. It displayed in a website the entire machines resource usage in realtime.
+
+
 ### Evaluation
 
 To evaluate, you had to get the shasum of your virtual drive (.vdi file) and push it into the vogsphere.
